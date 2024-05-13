@@ -26,6 +26,7 @@ func TestNumbers(t *testing.T) {
 		if _, ok := v.(string); ok {
 			// Do nothing
 		} else if values, ok := v.([]interface{}); ok {
+			assert.Len(t, values, 3)
 			for _, value := range values {
 				_, ok = value.(string)
 				assert.True(t, ok)
