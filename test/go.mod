@@ -1,4 +1,4 @@
-module github.com/jd-13/practiceru-data
+module github.com/jd-13/practiceua-data
 
 go 1.20
 
