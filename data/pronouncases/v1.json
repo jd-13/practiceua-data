@@ -21,8 +21,8 @@
         "masculine": [
             {
                 "nominative": "він",
-                "genitive": "його",
-                "accusative": "його",
+                "genitive": {"withoutPreposition": "його", "afterPreposition": "нього"},
+                "accusative": {"withoutPreposition": "його", "afterPreposition": "нього"},
                 "dative": "йому",
                 "instrumental": "ним",
                 "locative": "ньому"
@@ -31,8 +31,8 @@
         "feminine": [
             {
                 "nominative": "вона",
-                "genitive": "її",
-                "accusative": "її",
+                "genitive": {"withoutPreposition": "її", "afterPreposition": "неї"},
+                "accusative": {"withoutPreposition": "її", "afterPreposition": "неї"},
                 "dative": "їй",
                 "instrumental": "нею",
                 "locative": "ній"
@@ -41,8 +41,8 @@
         "neuter": [
             {
                 "nominative": "воно",
-                "genitive": "його",
-                "accusative": "його",
+                "genitive": {"withoutPreposition": "його", "afterPreposition": "нього"},
+                "accusative": {"withoutPreposition": "його", "afterPreposition": "нього"},
                 "dative": "йому",
                 "instrumental": "ним",
                 "locative": "ньому"
@@ -67,8 +67,8 @@
             },
             {
                 "nominative": "вони",
-                "genitive": "їх",
-                "accusative": "їх",
+                "genitive": {"withoutPreposition": "їх", "afterPreposition": "них"},
+                "accusative": {"withoutPreposition": "їх", "afterPreposition": "них"},
                 "dative": "їм",
                 "instrumental": "ними",
                 "locative": "них"

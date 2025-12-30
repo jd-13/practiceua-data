@@ -37,9 +37,31 @@ func TestPronounCases(t *testing.T) {
 
 			for _, caseName := range cases {
 				assert.Contains(t, pronounMap, caseName)
-				pronounString, ok := pronounMap[caseName].(string)
-				require.True(t, ok)
-				assert.NotEmpty(t, pronounString)
+
+				if caseName == "genitive" || caseName == "accusative" {
+					pronounString, ok := pronounMap[caseName].(string)
+
+					if ok {
+						assert.NotEmpty(t, pronounString)
+					} else {
+						prepositionMap, ok := pronounMap[caseName].(map[string]interface{})
+						require.True(t, ok)
+
+						assert.Contains(t, prepositionMap, "withoutPreposition")
+						pronounString, ok := prepositionMap["withoutPreposition"].(string)
+						assert.True(t, ok)
+						assert.NotEmpty(t, pronounString)
+
+						assert.Contains(t, prepositionMap, "afterPreposition")
+						pronounString, ok = prepositionMap["afterPreposition"].(string)
+						assert.True(t, ok)
+						assert.NotEmpty(t, pronounString)
+					}
+				} else {
+					pronounString, ok := pronounMap[caseName].(string)
+					require.True(t, ok)
+					assert.NotEmpty(t, pronounString)
+				}
 			}
 		}
 	}
