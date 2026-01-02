@@ -1,0 +1,21 @@
+{
+    "мама": {
+        "singular": {
+            "nominative": {"text": "мама"},
+            "genitive": {"text": "мами", "caseRule": "fem hard"},
+            "accusative": {"text": "маму", "caseRule": "fem hard"},
+            "dative": {"text": "мамі", "caseRule": "fem"},
+            "instrumental": {"text": "мамою", "caseRule": "fem hard"},
+            "locative": {"text": "мамі", "caseRule": "fem"},
+            "vocative": {"text": "мамо", "caseRule": "fem hard"}
+        },
+        "plural": {
+            "nominative": {"text": "мами", "caseRule": "fem hard"},
+            "genitive": {"text": "мам", "caseRule": "fem hard"},
+            "accusative": {"text": "мам", "caseRule": "fem animate"},
+            "dative": {"text": "мамі", "caseRule": "fem hard"},
+            "instrumental": {"text": "мамами", "caseRule": "fem hard"},
+            "locative": {"text": "мамах", "caseRule": "fem hard"}
+        }
+    }
+}
