@@ -27,27 +27,6 @@ func TestNounCases(t *testing.T) {
 	err = json.Unmarshal(rulesContent, &rules)
 	require.NoError(t, err)
 
-	// Extract valid rule names from the rules structure
-	validRules := make(map[string]bool)
-	singularRules, ok := rules["singular"].(map[string]interface{})
-	require.True(t, ok)
-	for _, caseRules := range singularRules {
-		caseRulesMap, ok := caseRules.(map[string]interface{})
-		require.True(t, ok)
-		for ruleName := range caseRulesMap {
-			validRules[ruleName] = true
-		}
-	}
-	pluralRules, ok := rules["plural"].(map[string]interface{})
-	require.True(t, ok)
-	for _, caseRules := range pluralRules {
-		caseRulesMap, ok := caseRules.(map[string]interface{})
-		require.True(t, ok)
-		for ruleName := range caseRulesMap {
-			validRules[ruleName] = true
-		}
-	}
-
 	cases := []string{"nominative", "genitive", "accusative", "dative", "instrumental", "locative", "vocative"}
 
 	for nounWord, noun := range nouns {
@@ -86,7 +65,15 @@ func TestNounCases(t *testing.T) {
 					assert.NotEmpty(t, caseRule, "noun %s %s %s caseRule should not be empty", nounWord, singularPlural, caseName)
 
 					// Validate that the caseRule exists in the rules file
-					assert.True(t, validRules[caseRule], "noun %s %s %s has invalid caseRule '%s'", nounWord, singularPlural, caseName, caseRule)
+					quantityRules, ok := rules[singularPlural].(map[string]interface{})
+					require.True(t, ok, "rules should have '%s'", singularPlural)
+
+					caseRules, ok := quantityRules[caseName].(map[string]interface{})
+					require.True(t, ok, "rules %s should have '%s'", singularPlural, caseName)
+
+					_, ruleExists := caseRules[caseRule]
+					assert.True(t, ruleExists, "noun %s %s %s has invalid caseRule '%s' - not found in rules.%s.%s",
+						nounWord, singularPlural, caseName, caseRule, singularPlural, caseName)
 				}
 			}
 		}
