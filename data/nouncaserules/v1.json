@@ -1,5 +1,5 @@
 {
-    "singular rules": {
+    "singular": {
         "genitive": {
             "masc hard": "For masculine nouns ending in a consonant (except й), add а",
             "masc soft": "For masculine nouns ending in й or ь, replace with я or sometimes ю",
@@ -62,7 +62,7 @@
         }
     },
 
-    "plural rules": {
+    "plural": {
         "nominative": {
             "masc hard": "For masculine nouns ending in a consonant (except for ж, ч, ш, щ or й), add и",
             "masc ь": "For masculine nouns ending in ь, replace with і",

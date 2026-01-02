@@ -23,8 +23,8 @@ func TestNounCaseRules(t *testing.T) {
 	cases := []string{"genitive", "accusative", "dative", "instrumental", "locative", "vocative"}
 
 	// Validate singular rules
-	assert.Contains(t, rules, "singular rules")
-	singularRules, ok := rules["singular rules"].(map[string]interface{})
+	assert.Contains(t, rules, "singular")
+	singularRules, ok := rules["singular"].(map[string]interface{})
 	require.True(t, ok)
 
 	for _, caseName := range cases {
@@ -45,8 +45,8 @@ func TestNounCaseRules(t *testing.T) {
 	}
 
 	// Validate plural rules
-	assert.Contains(t, rules, "plural rules")
-	pluralRules, ok := rules["plural rules"].(map[string]interface{})
+	assert.Contains(t, rules, "plural")
+	pluralRules, ok := rules["plural"].(map[string]interface{})
 	require.True(t, ok)
 
 	pluralCases := []string{"nominative", "genitive", "accusative", "dative", "instrumental", "locative"}
