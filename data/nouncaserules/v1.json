@@ -1,128 +1,128 @@
 {
     "singular rules": {
-        "genitive": [
-            ["masc", "For nouns ending in a consonant (except й), add а"],
-            ["masc", "For nouns ending in й or ь, replace with я or sometimes ю"],
-            ["masc", "Some nouns ending in a consonant are exceptions, add у"],
-            ["fem", "For nouns ending in а, replace with и"],
-            ["fem", "For nouns ending in я or ь (feminine), replace with і"],
-            ["fem", "For nouns ending in ія, replace with ії"],
-            ["fem", "For nouns ending in a consonant, add і"],
-            ["neu", "For nouns ending in о, replace with а"],
-            ["neu", "For nouns ending in е, replace with я"],
-            ["neu", "For nouns ending in я, no change"]
-        ],
-        "accusative": [
-            ["masc", "For inanimate nouns, no change"],
-            ["masc", "For animate nouns ending in a consonant (except й), add а"],
-            ["masc", "For animate nouns ending in й or ь, replace with я"],
-            ["fem", "For nouns ending in а, replace with у"],
-            ["fem", "For nouns ending in я, replace with ю"],
-            ["fem", "For nouns ending in a consonant or ь, no change"],
-            ["neu", "For nouns ending in о, е, or я, no change"]
-        ],
-        "dative": [
-            ["masc", "For nouns ending in a consonant (except й), add у (or ові)"],
-            ["masc", "For nouns ending in й, replace with ю (or єві)"],
-            ["masc", "For nouns ending in ь, replace with ю (or еві)"],
-            ["fem", "For nouns ending in а, я, ь, replace with і"],
-            ["fem", "For nouns ending in a consonant, add і"],
-            ["neu", "For nouns ending in о, replace with у"],
-            ["neu", "For nouns ending in е or я, replace with ю"]
-        ],
-        "instrumental": [
-            ["masc", "For nouns ending in a consonant (except й), add ом"],
-            ["masc", "For nouns ending in й, replace with єм"],
-            ["masc", "For nouns ending in ь, replace with ем"],
-            ["fem", "For nouns ending in а, replace with ою"],
-            ["fem", "For nouns ending in я, replace with ею"],
-            ["fem", "For nouns ending in ія, replace with єю"],
-            ["fem", "For nouns ending in ь, replace with ю (some nouns will also double the consonant)"],
-            ["fem", "For nouns ending in a consonant, double the consonant and add ю"],
-            ["neu", "For nouns ending in о, е, or я, add м"],
-        ],
-        "locative": [
-            ["masc", "For nouns ending in a consonant (except й or к), add і"],
-            ["masc", "For nouns ending in к, add у"],
-            ["masc", "For nouns ending in й, replace with ї or sometimes ю"],
-            ["masc", "For nouns ending in ь, replace with і"],
-            ["fem", "For nouns ending in а, я or і, replace with і"],
-            ["fem", "For nouns ending in ія, replace with ії"],
-            ["fem", "For nouns ending in a consonant, add і"],
-            ["neu", "For nouns ending in о, е, or я, replace with і"]
-        ],
-        "vocative": [
-            ["masc", "For nouns ending in a consonant (except ч, ш, or й), add е"],
-            ["masc", "For nouns ending in ч or ш, add у"],
-            ["masc", "For nouns ending in ь or й, replace with ю"],
-            ["fem", "For nouns ending in а, replace with о"],
-            ["fem", "For nouns ending in я, replace with е"],
-            ["fem", "For nouns ending in ія, replace with іє"],
-            ["neu", "No change"]
-        ]
+        "genitive": {
+            "masc hard": "For masculine nouns ending in a consonant (except й), add а",
+            "masc soft": "For masculine nouns ending in й or ь, replace with я or sometimes ю",
+            "masc hard exception": "Some masculine nouns ending in a consonant are exceptions, add у",
+            "fem hard": "For feminine nouns ending in а, replace with и",
+            "fem soft": "For feminine nouns ending in я or ь, replace with і",
+            "fem ія": "For feminine nouns ending in ія, replace with ії",
+            "fem consonant": "For feminine nouns ending in a consonant, add і",
+            "neu hard": "For neuter nouns ending in о, replace with а",
+            "neu soft": "For neuter nouns ending in е, replace with я",
+            "neu я": "For neuter nouns ending in я, no change"
+        },
+        "accusative": {
+            "masc inanimate": "For inanimate masculine nouns, no change",
+            "masc hard animate": "For animate masculine nouns ending in a consonant (except й), add а",
+            "masc soft animate": "For animate masculine nouns ending in й or ь, replace with я",
+            "fem hard": "For feminine nouns ending in а, replace with у",
+            "fem soft": "For feminine nouns ending in я, replace with ю",
+            "fem consonant/ь": "For feminine nouns ending in a consonant or ь, no change",
+            "neu": "For neuter nouns ending in о, е, or я, no change"
+        },
+        "dative": {
+            "masc hard": "For masculine nouns ending in a consonant (except й), add у (or ові)",
+            "masc й": "For masculine nouns ending in й, replace with ю (or єві)",
+            "masc ь": "For masculine nouns ending in ь, replace with ю (or еві)",
+            "fem": "For feminine nouns ending in а, я, ь, replace with і",
+            "fem consonant": "For feminine nouns ending in a consonant, add і",
+            "neu hard": "For neuter nouns ending in о, replace with у",
+            "neu soft": "For neuter nouns ending in е or я, replace with ю"
+        },
+        "instrumental": {
+            "masc hard": "For masculine nouns ending in a consonant (except й), add ом",
+            "masc й": "For masculine nouns ending in й, replace with єм",
+            "masc ь": "For masculine nouns ending in ь, replace with ем",
+            "fem hard": "For feminine nouns ending in а, replace with ою",
+            "fem soft": "For feminine nouns ending in я, replace with ею",
+            "fem ія": "For feminine nouns ending in ія, replace with єю",
+            "fem ь": "For feminine nouns ending in ь, replace with ю (some nouns will also double the consonant)",
+            "fem consonant": "For nouns ending in a consonant, double the consonant and add ю",
+            "neu": "For neuter nouns ending in о, е, or я, add м"
+        },
+        "locative": {
+            "masc hard": "For masculine nouns ending in a consonant (except й or к), add і",
+            "masc к": "For masculine nouns ending in к, add у",
+            "masc й": "For masculine nouns ending in й, replace with ї or sometimes ю",
+            "masc ь": "For masculine nouns ending in ь, replace with і",
+            "fem": "For feminine nouns ending in а, я or і, replace with і",
+            "fem ія": "For feminine nouns ending in ія, replace with ії",
+            "fem consonant": "For feminine nouns ending in a consonant, add і",
+            "neu": "For neuter nouns ending in о, е, or я, replace with і"
+        },
+        "vocative": {
+            "masc hard": "For masculine nouns ending in a consonant (except ч, ш, or й), add е",
+            "masc ч/ш": "For masculine nouns ending in ч or ш, add у",
+            "masc soft": "For masculine nouns ending in ь or й, replace with ю",
+            "fem hard": "For feminine nouns ending in а, replace with о",
+            "fem soft": "For feminine nouns ending in я, replace with е",
+            "fem ія": "For feminine nouns ending in ія, replace with іє",
+            "neu": "For neuter nouns, no change"
+        }
     },
 
     "plural rules": {
-        "nominative": [
-            ["masc", "For nouns ending in a consonant (except for ж, ч, ш, щ or й), add и"],
-            ["masc", "For nouns ending in ь, replace with і"],
-            ["masc", "For nouns ending in ж, ч, ш, or щ, add і"],
-            ["masc", "For nouns ending in ар or яр, add і"],
-            ["masc", "For nouns ending in й, replace with ї"],
-            ["fem", "For nouns ending in а, replace with и"],
-            ["fem", "For nouns ending in я, replace with і"],
-            ["fem", "For nouns ending in жа, ча, ша, or ща, replace а with і"],
-            ["fem", "For nouns ending in 'я, replace with ї"],
-            ["fem", "For nouns ending in ія, replace with ії"],
-            ["neu", "For nouns ending in о, replace with а"],
-            ["neu", "For nouns ending in е, replace with я"],
-            ["neu", "For nouns ending in же, че, ше, or ще, replace е with а"],
-            ["neu", "For nouns ending in я, no change"]
-        ],
-        "genitive": [
-            ["masc", "For nouns ending in a consonant, add ів"],
-            ["masc", "For nouns ending in я, or й, replace with ів"],
-            ["fem", "For nouns ending in а, remove а"],
-            ["fem", "For nouns ending in ка, replace with ок"],
-            ["fem", "For nouns ending in я, replace with ь"],
-            ["fem", "For nouns ending in ь, no change"],
-            ["fem", "For nouns ending in a consonant, add ей"],
-            ["fem", "For nouns ending in жа, ча, ша, or ща, replace а with ей"],
-            ["neu", "For nouns ending in е, replace with ь"],
-            ["neu", "For nouns ending in о, remove о"]
-        ],
-        "accusative": [
-            ["masc", "For inanimate nouns, the accusative plural is the same as the nominative plural"],
-            ["masc", "For animate nouns, the accusative plural is the same as the genitive plural"],
-            ["fem", "For inanimate nouns, the accusative plural is the same as the nominative plural"],
-            ["fem", "For animate nouns, the accusative plural is the same as the genitive plural"],
-            ["neu", "For inanimate and animate nouns, the accusative plural is the same as the nominative plural"],
-        ],
-        "dative": [
-            ["masc", "For nouns ending in a consonant, add ам"],
-            ["masc", "For nouns ending in й or ь, replace with ям"],
-            ["fem", "For nouns ending in а, replace with ам"],
-            ["fem", "For nouns ending in я, replace with ям"],
-            ["neu", "For nouns ending in о, replace with ам"],
-            ["neu", "For nouns ending in е, replace with ям"]
-        ],
-        "instrumental": [
-            ["masc", "For nouns ending in a consonant, add ами"],
-            ["masc", "For nouns ending in й or ь, replace with ями"],
-            ["fem", "For nouns ending in а, replace with ами"],
-            ["fem", "For nouns ending in ь, replace with ями"],
-            ["fem", "For nouns ending in a consonant, add ами"],
-            ["neu", "For nouns ending in о, replace with ами"],
-            ["neu", "For nouns ending in е, replace with ями"]
-        ],
-        "locative": [
-            ["masc", "For nouns ending in a consonant, add ах"],
-            ["masc", "For nouns ending in й or ь, replace with ях"],
-            ["fem", "For nouns ending in а, replace with ах"],
-            ["fem", "For nouns ending in я, replace with ях"],
-            ["fem", "For nouns ending in a consonant, add ах"],
-            ["neu", "For nouns ending in о, replace with ах"],
-            ["neu", "For nouns ending in е, replace with ях"]
-        ]
+        "nominative": {
+            "masc hard": "For masculine nouns ending in a consonant (except for ж, ч, ш, щ or й), add и",
+            "masc ь": "For masculine nouns ending in ь, replace with і",
+            "masc ж/ч/ш/щ": "For masculine nouns ending in ж, ч, ш, or щ, add і",
+            "masc ар/яр": "For masculine nouns ending in ар or яр, add і",
+            "masc й": "For masculine nouns ending in й, replace with ї",
+            "fem hard": "For feminine nouns ending in а, replace with и",
+            "fem soft": "For feminine nouns ending in я, replace with і",
+            "fem жа/ча/ша/ща": "For feminine nouns ending in жа, ча, ша, or ща, replace а with і",
+            "fem 'я": "For feminine nouns ending in 'я, replace with ї",
+            "fem ія": "For feminine nouns ending in ія, replace with ії",
+            "neu hard": "For neuter nouns ending in о, replace with а",
+            "neu soft": "For neuter nouns ending in е, replace with я",
+            "neu же/че/ше/ще": "For neuter nouns ending in же, че, ше, or ще, replace е with а",
+            "neu я": "For neuter nouns ending in я, no change"
+        },
+        "genitive": {
+            "masc hard": "For masculine nouns ending in a consonant, add ів",
+            "masc soft": "For masculine nouns ending in ь, й, or я, replace with ів",
+            "fem hard": "For feminine nouns ending in а, remove а",
+            "fem ка": "For feminine nouns ending in ка, replace with ок",
+            "fem я": "For feminine nouns ending in я, replace with ь",
+            "fem ь": "For feminine nouns ending in ь, no change",
+            "fem consonant": "For feminine nouns ending in a consonant, add ей",
+            "fem жа/ча/ша/ща": "For feminine nouns ending in жа, ча, ша, or ща, replace а with ей",
+            "neu hard": "For neuter nouns ending in о, remove о",
+            "neu soft": "For neuter nouns ending in е, replace with ь"
+        },
+        "accusative": {
+            "masc inanimate": "For masculine inanimate nouns, the accusative plural is the same as the nominative plural",
+            "masc animate": "For masculine animate nouns, the accusative plural is the same as the genitive plural",
+            "fem inanimate": "For feminine inanimate nouns, the accusative plural is the same as the nominative plural",
+            "fem animate": "For feminine animate nouns, the accusative plural is the same as the genitive plural",
+            "neu": "For neuter nouns, the accusative plural is the same as the nominative plural"
+        },
+        "dative": {
+            "masc hard": "For masculine nouns ending in a consonant, add ам",
+            "masc soft": "For masculine nouns ending in й or ь, replace with ям",
+            "fem hard": "For feminine nouns ending in а, replace with ам",
+            "fem soft": "For feminine nouns ending in я, replace with ям",
+            "neu hard": "For neuter nouns ending in о, replace with ам",
+            "neu soft": "For neuter nouns ending in е, replace with ям"
+        },
+        "instrumental": {
+            "masc hard": "For masculine nouns ending in a consonant, add ами",
+            "masc soft": "For masculine nouns ending in й or ь, replace with ями",
+            "fem hard": "For feminine nouns ending in а, replace with ами",
+            "fem soft": "For feminine nouns ending in ь or я, replace with ями",
+            "fem consonant": "For feminine nouns ending in a consonant, add ами",
+            "neu hard": "For neuter nouns ending in о, replace with ами",
+            "neu soft": "For neuter nouns ending in е, replace with ями"
+        },
+        "locative": {
+            "masc hard": "For masculine nouns ending in a consonant, add ах",
+            "masc soft": "For masculine nouns ending in й or ь, replace with ях",
+            "fem hard": "For feminine nouns ending in а, replace with ах",
+            "fem soft": "For feminine nouns ending in я, replace with ях",
+            "fem consonant": "For feminine nouns ending in a consonant, add ах",
+            "neu hard": "For neuter nouns ending in о, replace with ах",
+            "neu soft": "For neuter nouns ending in е, replace with ях"
+        }
     }
 }
