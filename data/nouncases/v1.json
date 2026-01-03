@@ -12,10 +12,29 @@
     "plural": {
       "nominative": { "text": ["мами"], "caseRule": "fem hard" },
       "genitive": { "text": ["мам", "мамів"], "caseRule": "fem hard" },
-      "accusative": { "text": ["мам"], "caseRule": "fem animate" },
+      "accusative": { "text": ["мам", "мамів"], "caseRule": "fem animate" },
       "dative": { "text": ["мамам"], "caseRule": "fem hard" },
       "instrumental": { "text": ["мамами"], "caseRule": "fem hard" },
       "locative": { "text": ["мамах"], "caseRule": "fem hard" }
+    }
+  },
+  "друг": {
+    "singular": {
+      "nominative": { "text": ["друг"] },
+      "genitive": { "text": ["друга"], "caseRule": "masc hard" },
+      "accusative": { "text": ["друга"], "caseRule": "masc hard animate" },
+      "dative": { "text": ["другові", "другу"], "caseRule": "masc hard" },
+      "instrumental": { "text": ["другом"], "caseRule": "masc hard" },
+      "locative": { "text": ["другові", "другу"], "caseRule": "masc к/г" },
+      "vocative": { "text": ["друже"], "caseRule": "masc hard" }
+    },
+    "plural": {
+      "nominative": { "text": ["друзі"], "caseRule": "друг exception" },
+      "genitive": { "text": ["друзів"], "caseRule": "друг exception" },
+      "accusative": { "text": ["друзів"], "caseRule": "masc animate" },
+      "dative": { "text": ["друзям"], "caseRule": "друг exception" },
+      "instrumental": { "text": ["друзями"], "caseRule": "друг exception" },
+      "locative": { "text": ["друзях"], "caseRule": "друг exception" }
     }
   }
 }
