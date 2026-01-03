@@ -36,5 +36,24 @@
       "instrumental": { "text": ["друзями"], "caseRule": "друг exception" },
       "locative": { "text": ["друзях"], "caseRule": "друг exception" }
     }
+  },
+  "море": {
+    "singular": {
+      "nominative": { "text": ["море"] },
+      "genitive": { "text": ["моря"], "caseRule": "neu soft" },
+      "accusative": { "text": ["море"], "caseRule": "neu" },
+      "dative": { "text": ["морю"], "caseRule": "neu soft" },
+      "instrumental": { "text": ["морем"], "caseRule": "neu" },
+      "locative": { "text": ["морю", "морі"], "caseRule": "neu" },
+      "vocative": { "text": ["море"], "caseRule": "neu" }
+    },
+    "plural": {
+      "nominative": { "text": ["моря"], "caseRule": "neu soft" },
+      "genitive": { "text": ["морів"], "caseRule": "море exception" },
+      "accusative": { "text": ["моря"], "caseRule": "neu" },
+      "dative": { "text": ["морям"], "caseRule": "neu soft" },
+      "instrumental": { "text": ["морями"], "caseRule": "neu soft" },
+      "locative": { "text": ["морях"], "caseRule": "neu soft" }
+    }
   }
 }

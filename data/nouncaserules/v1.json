@@ -69,7 +69,7 @@
             "masc ж/ч/ш/щ": "For masculine nouns ending in ж, ч, ш, or щ, add і",
             "masc ар/яр": "For masculine nouns ending in ар or яр, add і",
             "masc й": "For masculine nouns ending in й, replace with ї",
-            "друг exception": "This word is an exception, replace г with зі",
+            "друг exception": "This noun is an exception, replace г with зі",
             "fem hard": "For feminine nouns ending in а, replace with и",
             "fem soft": "For feminine nouns ending in я, replace with і",
             "fem жа/ча/ша/ща": "For feminine nouns ending in жа, ча, ша, or ща, replace а with і",
@@ -83,7 +83,7 @@
         "genitive": {
             "masc hard": "For masculine nouns ending in a consonant, add ів",
             "masc soft": "For masculine nouns ending in ь, й, or я, replace with ів",
-            "друг exception": "This word is an exception, replace г with зів",
+            "друг exception": "This noun is an exception, replace г with зів",
             "fem hard": "For feminine nouns ending in а, remove а",
             "fem ка": "For feminine nouns ending in ка, replace with ок",
             "fem я": "For feminine nouns ending in я, replace with ь",
@@ -91,7 +91,8 @@
             "fem consonant": "For feminine nouns ending in a consonant, add ей",
             "fem жа/ча/ша/ща": "For feminine nouns ending in жа, ча, ша, or ща, replace а with ей",
             "neu hard": "For neuter nouns ending in о, remove о",
-            "neu soft": "For neuter nouns ending in е, replace with ь"
+            "neu soft": "For neuter nouns ending in е, replace with ь",
+            "море exception": "This noun is an exception, add ів"
         },
         "accusative": {
             "masc inanimate": "For masculine inanimate nouns, the accusative plural is the same as the nominative plural",
@@ -103,7 +104,7 @@
         "dative": {
             "masc hard": "For masculine nouns ending in a consonant, add ам",
             "masc soft": "For masculine nouns ending in й or ь, replace with ям",
-            "друг exception": "This word is an exception, replace г with зям",
+            "друг exception": "This noun is an exception, replace г with зям",
             "fem hard": "For feminine nouns ending in а, replace with ам",
             "fem soft": "For feminine nouns ending in я, replace with ям",
             "neu hard": "For neuter nouns ending in о, replace with ам",
@@ -112,7 +113,7 @@
         "instrumental": {
             "masc hard": "For masculine nouns ending in a consonant, add ами",
             "masc soft": "For masculine nouns ending in й or ь, replace with ями",
-            "друг exception": "This word is an exception, replace г with зями",
+            "друг exception": "This noun is an exception, replace г with зями",
             "fem hard": "For feminine nouns ending in а, replace with ами",
             "fem soft": "For feminine nouns ending in ь or я, replace with ями",
             "fem consonant": "For feminine nouns ending in a consonant, add ами",
@@ -122,7 +123,7 @@
         "locative": {
             "masc hard": "For masculine nouns ending in a consonant, add ах",
             "masc soft": "For masculine nouns ending in й or ь, replace with ях",
-            "друг exception": "This word is an exception, replace г with зях",
+            "друг exception": "This noun is an exception, replace г with зях",
             "fem hard": "For feminine nouns ending in а, replace with ах",
             "fem soft": "For feminine nouns ending in я, replace with ях",
             "fem consonant": "For feminine nouns ending in a consonant, add ах",
