@@ -46,7 +46,7 @@
             "masc к/г": "For masculine nouns ending in к or г, add у",
             "masc й": "For masculine nouns ending in й, replace with ї or sometimes ю",
             "masc ь": "For masculine nouns ending in ь, replace with і",
-            "fem": "For feminine nouns ending in а, я or і, replace with і",
+            "fem": "For feminine nouns ending in а, or я, replace with і",
             "fem ія": "For feminine nouns ending in ія, replace with ії",
             "fem consonant": "For feminine nouns ending in a consonant, add і",
             "neu": "For neuter nouns ending in о, е, or я, replace with і"
