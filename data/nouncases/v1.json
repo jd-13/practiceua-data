@@ -13,7 +13,7 @@
       "nominative": { "text": ["мами"], "caseRule": "fem hard" },
       "genitive": { "text": ["мам", "мамів"], "caseRule": "fem hard" },
       "accusative": { "text": ["мам"], "caseRule": "fem animate" },
-      "dative": { "text": ["мамі"], "caseRule": "fem hard" },
+      "dative": { "text": ["мамам"], "caseRule": "fem hard" },
       "instrumental": { "text": ["мамами"], "caseRule": "fem hard" },
       "locative": { "text": ["мамах"], "caseRule": "fem hard" }
     }
