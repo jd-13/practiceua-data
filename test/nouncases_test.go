@@ -51,15 +51,23 @@ func TestNounCases(t *testing.T) {
 				caseMap, ok := quantityMap[caseName].(map[string]interface{})
 				require.True(t, ok, "noun %s %s %s should be a map", nounWord, singularPlural, caseName)
 
-				// Must always have text
+				// Must always have text (array of strings)
 				assert.Contains(t, caseMap, "text", "noun %s %s %s should have text", nounWord, singularPlural, caseName)
-				text, ok := caseMap["text"].(string)
-				require.True(t, ok, "noun %s %s %s text should be a string", nounWord, singularPlural, caseName)
-				assert.NotEmpty(t, text, "noun %s %s %s text should not be empty", nounWord, singularPlural, caseName)
+
+				textArr, ok := caseMap["text"].([]interface{})
+				require.True(t, ok, "noun %s %s %s text should be an array", nounWord, singularPlural, caseName)
+				require.NotEmpty(t, textArr, "noun %s %s %s text array should not be empty", nounWord, singularPlural, caseName)
+
+				for i, v := range textArr {
+					str, ok := v.(string)
+					require.True(t, ok, "noun %s %s %s text[%d] should be a string", nounWord, singularPlural, caseName, i)
+					assert.NotEmpty(t, str, "noun %s %s %s text[%d] should not be empty", nounWord, singularPlural, caseName, i)
+				}
 
 				// Singular nominative doesn't have a case rule
 				if !(singularPlural == "singular" && caseName == "nominative") {
 					assert.Contains(t, caseMap, "caseRule", "noun %s %s %s should have caseRule", nounWord, singularPlural, caseName)
+
 					caseRule, ok := caseMap["caseRule"].(string)
 					require.True(t, ok, "noun %s %s %s caseRule should be a string", nounWord, singularPlural, caseName)
 					assert.NotEmpty(t, caseRule, "noun %s %s %s caseRule should not be empty", nounWord, singularPlural, caseName)
@@ -72,7 +80,8 @@ func TestNounCases(t *testing.T) {
 					require.True(t, ok, "rules %s should have '%s'", singularPlural, caseName)
 
 					_, ruleExists := caseRules[caseRule]
-					assert.True(t, ruleExists, "noun %s %s %s has invalid caseRule '%s' - not found in rules.%s.%s",
+					assert.True(t, ruleExists,
+						"noun %s %s %s has invalid caseRule '%s' - not found in rules.%s.%s",
 						nounWord, singularPlural, caseName, caseRule, singularPlural, caseName)
 				}
 			}
