@@ -1,0 +1,14 @@
+{
+    "January": { "text": "січень", "meaning": "Січень is the month at the peak of winter (сочень)" },
+    "February": { "text": "лютий", "meaning": "Лютий is the month when the weather turns furious (лютий)" },
+    "March": { "text": "березень", "meaning": "Березень is the month when the birch (береза) blooms"},
+    "April": { "text": "квітень", "meaning": "Квітень is the month when many flowers begin to blossom (квітнути)"},
+    "May": { "text": "травень", "meaning": "Травень is the month when the grass (трава) grows" },
+    "June": { "text": "червень", "meaning": "Червень is the month when many red (червоний) fruits begin to ripen"},
+    "July": { "text": "липень", "meaning": "Липень is the month when the linden (липа) trees bloom"},
+    "August": { "text": "серпень", "meaning": "Серпень is the month when farmers would harvest using a sickle (серп)"},
+    "September": { "text": "вересень", "meaning": "Вересень is the month when heather (верес) begins to bloom"},
+    "October": { "text": "жовтень", "meaning": "Жовтень is the month when the leaves turn yellow (жовтий)" },
+    "November": { "text": "листопад", "meaning": "Листопад is the month when leaves (лист) fall (падати)" },
+    "December": { "text": "грудень", "meaning": "Грудень is the month when soil would freeze into lumps (грудки)" }
+}
