@@ -1,5 +1,5 @@
 {
-    "numbers": {
+    "ordinal numbers": {
         "1": { "nominative": "перше", "genitive": "першого", "locative": ["першому", "першім"] },
         "2": { "nominative": "друге", "genitive": "другого", "locative": ["другому", "другім"] },
         "3": { "nominative": "третє", "genitive": "третього", "locative": ["третьому", "третім"] },

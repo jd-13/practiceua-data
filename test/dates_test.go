@@ -21,7 +21,7 @@ func TestDates(t *testing.T) {
 	require.NoError(t, err)
 
 	// Validate ordinal numbers
-	numbers, ok := data["numbers"].(map[string]interface{})
+	numbers, ok := data["ordinal numbers"].(map[string]interface{})
 	require.True(t, ok)
 
 	for key, value := range numbers {
