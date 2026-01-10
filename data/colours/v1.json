@@ -4,5 +4,23 @@
         "feminine": "чорна",
         "neuter": "чорне",
         "plural": "чорні"
+    },
+    "grey": {
+        "masculine": "сірий",
+        "feminine": "сіра",
+        "neuter": "сіре",
+        "plural": "сірі"
+    },
+    "red": {
+        "masculine": "червоний",
+        "feminine": "червона",
+        "neuter": "червоне",
+        "plural": "червоні"
+    },
+    "white": {
+        "masculine": "білий",
+        "feminine": "білая",
+        "neuter": "біле",
+        "plural": "білі"
     }
 }
