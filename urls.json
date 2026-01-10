@@ -1,4 +1,5 @@
 {
+    "colours": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/colours",
     "dates": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/dates",
     "pronouncases": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/pronouncases",
     "months": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/months",
