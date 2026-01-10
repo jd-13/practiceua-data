@@ -1,26 +1,74 @@
 {
     "black": {
-        "masculine": "чорний",
-        "feminine": "чорна",
-        "neuter": "чорне",
-        "plural": "чорні"
+        "masculine": ["чорний"],
+        "feminine": ["чорна"],
+        "neuter": ["чорне"],
+        "plural": ["чорні"]
+    },
+    "brown": {
+        "masculine": ["коричневий"],
+        "feminine": ["коричнева"],
+        "neuter": ["коричневе"],
+        "plural": ["коричневі"]
+    },
+    "darkblue": {
+        "masculine": ["синій"],
+        "feminine": ["синя"],
+        "neuter": ["синє"],
+        "plural": ["сині"]
+    },
+    "green": {
+        "masculine": ["зелений"],
+        "feminine": ["зелена"],
+        "neuter": ["зелене"],
+        "plural": ["зелені"]
     },
     "grey": {
-        "masculine": "сірий",
-        "feminine": "сіра",
-        "neuter": "сіре",
-        "plural": "сірі"
+        "masculine": ["сірий"],
+        "feminine": ["сіра"],
+        "neuter": ["сіре"],
+        "plural": ["сірі"]
+    },
+    "lightblue": {
+        "masculine": ["блакитний", "голубий"],
+        "feminine": ["блакитна", "голуба"],
+        "neuter": ["блакитне", "голубе"],
+        "plural": ["блакитні", "голубі"]
+    },
+    "orange": {
+        "masculine": ["оранжевий", "помаранчевий"],
+        "feminine": ["оранжева", "помаранчева"],
+        "neuter": ["оранжеве", "помаранчеве"],
+        "plural": ["оранжеві", "помаранчеві"]
+    },
+    "pink": {
+        "masculine": ["рожевий"],
+        "feminine": ["рожева"],
+        "neuter": ["рожеве"],
+        "plural": ["рожеві"]
+    },
+    "purple": {
+        "masculine": ["фіолетовий"],
+        "feminine": ["фіолетова"],
+        "neuter": ["фіолетове"],
+        "plural": ["фіолетові"]
     },
     "red": {
-        "masculine": "червоний",
-        "feminine": "червона",
-        "neuter": "червоне",
-        "plural": "червоні"
+        "masculine": ["червоний"],
+        "feminine": ["червона"],
+        "neuter": ["червоне"],
+        "plural": ["червоні"]
     },
     "white": {
-        "masculine": "білий",
-        "feminine": "білая",
-        "neuter": "біле",
-        "plural": "білі"
+        "masculine": ["білий"],
+        "feminine": ["біла"],
+        "neuter": ["біле"],
+        "plural": ["білі"]
+    },
+    "yellow": {
+        "masculine": ["жовтий"],
+        "feminine": ["жовта"],
+        "neuter": ["жовте"],
+        "plural": ["жовті"]
     }
 }
