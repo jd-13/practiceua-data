@@ -14,5 +14,93 @@
     "bellpepper": {
         "singluar": "перець",
         "plural": "перці"
-    }
+    },
+    "blueberry": {
+        "singluar": "чорниця",
+        "plural": "чорниці"
+    },
+    "broccoli": {
+        "singluar": "броколі",
+        "plural": "броколі"
+    },
+    "carrot": {
+        "singluar": "морква",
+        "plural": "морква"
+    },
+    "cauliflower": {
+        "singluar": "цвітна капуста",
+        "plural": "цвітна капуста"
+    },
+    "chilli": {
+        "singluar": "чилі",
+        "plural": "чилі"
+    },
+    "courgette": {
+        "singluar": "кабачок",
+        "plural": "кабачки"
+    },
+    "cucumber": {
+        "singluar": "огірок",
+        "plural": "огірки"
+    },
+    "eggplant": {
+        "singluar": "баклажан",
+        "plural": "баклажани"
+    },
+    "garlic": {
+        "singluar": "часник",
+        "plural": "часник"
+    },
+    "grape": {
+        "singluar": "виноград",
+        "plural": "виногради"
+    },
+    "kiwi": {
+        "singluar": "ківі",
+        "plural": "ківі"
+    },
+    "lemon": {
+        "singluar": "лимон",
+        "plural": "лимони"
+    },
+    "lime": {
+        "singluar": "вапно",
+        "plural": "вапно"
+    },
+    "onion": {
+        "singluar": "цибуля",
+        "plural": "цибулі"
+    },
+    "orange": {
+        "singluar": "апельсин",
+        "plural": "апельсини"
+    },
+    "pear": {
+        "singluar": "груша",
+        "plural": "груші"
+    },
+    "potato": {
+        "singluar": "картопля",
+        "plural": "картопля"
+    },
+    "strawberry": {
+        "singluar": "полуниця",
+        "plural": "полуниці"
+    },
+    "sweetcorn": {
+        "singluar": "цукрова кукурудза",
+        "plural": "цукрова кукурудза"
+    },
+    "sweetpotato": {
+        "singluar": "солодка картопля",
+        "plural": "солодка картопля"
+    },
+    "tomato": {
+        "singluar": "помідор",
+        "plural": "помідори"
+    },
+    "watermelon": {
+        "singluar": "кавун",
+        "plural": "кавуни"
+    },
 }
