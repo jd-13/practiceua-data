@@ -1,9 +1,10 @@
 {
     "colours": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/colours",
     "dates": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/dates",
-    "pronouncases": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/pronouncases",
+    "fruitsandvegetables": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/fruitsandvegetables",
     "months": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/months",
     "numbers": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/numbers",
     "nouncases": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/nouncases",
-    "nouncaserules": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/nouncaserules"
+    "nouncaserules": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/nouncaserules",
+    "pronouncases": "https://raw.githubusercontent.com/jd-13/practiceua-data/main/data/pronouncases"
 }

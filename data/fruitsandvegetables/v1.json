@@ -1,0 +1,18 @@
+{
+    "apple": {
+        "singluar": "яблуко",
+        "plural": "яблука"
+    },
+    "banana": {
+        "singluar": "банан",
+        "plural": "банани"
+    },
+    "beetroot": {
+        "singluar": "буряк",
+        "plural": "буряки"
+    },
+    "bellpepper": {
+        "singluar": "перець",
+        "plural": "перці"
+    }
+}
