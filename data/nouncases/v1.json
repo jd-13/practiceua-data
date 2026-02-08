@@ -80,15 +80,15 @@
       "nominative": { "text": ["вулиця"] },
       "genitive": { "text": ["вулиці"], "caseRule": "fem soft" },
       "accusative": { "text": ["вулицю"], "caseRule": "fem soft" },
-      "dative": { "text": ["вулиці"], "caseRule": "fem soft" },
+      "dative": { "text": ["вулиці"], "caseRule": "fem" },
       "instrumental": { "text": ["вулицею"], "caseRule": "fem soft" },
-      "locative": { "text": ["вулиці"], "caseRule": "fem soft" },
+      "locative": { "text": ["вулиці"], "caseRule": "fem" },
       "vocative": { "text": ["вулице"], "caseRule": "fem soft" }
     },
     "plural": {
       "nominative": { "text": ["вулиці"], "caseRule": "fem soft" },
-      "genitive": { "text": ["вулиць", 	"вулиць"], 	"caseRule":"fem soft"},
-     	"accusative":{"text":["вулиці"],"caseRule":"fem animate"},
+      "genitive": { "text": ["вулиць"], "caseRule":"fem я"},
+     	"accusative":{"text":["вулиці"],"caseRule":"fem inanimate"},
      	"dative":{"text":["вулицям"],"caseRule":"fem soft"},
      	"instrumental":{"text":["вулицями"],"caseRule":"fem soft"},
      	"locative":{"text":["вулицях"],"caseRule":"fem soft"}
