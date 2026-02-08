@@ -25,7 +25,7 @@
       "accusative": { "text": ["машину"], "caseRule": "fem hard" },
       "dative": { "text": ["машині"], "caseRule": "fem hard" },
       "instrumental": { "text": ["машиною"], "caseRule": "fem hard" },
-      "locative": { "text": ["машині"], "caseRule": "fem hard" },
+      "locative": { "text": ["машині"], "caseRule": "fem" },
       "vocative": { "text": ["машино"], "caseRule": "fem hard" }
     },
     "plural": {
