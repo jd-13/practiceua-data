@@ -131,4 +131,5 @@
       "instrumental": { "text": ["озерами"], "caseRule": "neu hard" },
       "locative": { "text": ["озерах"], "caseRule": "neu hard" }
     }
+  }
 }
