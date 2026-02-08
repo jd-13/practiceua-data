@@ -37,6 +37,25 @@
       "locative": { "text": ["друзях"], "caseRule": "друг exception" }
     }
   },
+  "лікар": {
+    "singular": {
+      "nominative": { "text": ["лікар"] },
+      "genitive": { "text": ["лікаря"], "caseRule": "masc ар" },
+      "accusative": { "text": ["лікаря"], "caseRule": "masc ар animate" },
+      "dative": { "text": ["лікареві", "лікарю"], "caseRule": "masc ар" },
+      "instrumental": { "text": ["лікарем"], "caseRule": "masc ар" },
+      "locative": { "text": ["лікареві", "лікарю", "лікарі"], "caseRule": "masc ар" },
+      "vocative": { "text": ["лікарю"], "caseRule": "masc ар" }
+    },
+    "plural": {
+      "nominative": { "text": ["лікарі"], "caseRule": "masc ар/яр" },
+      "genitive": { "text": ["лікарів"], "caseRule": "masc hard" },
+      "accusative": { "text": ["лікарів"], "caseRule": "masc animate" },
+      "dative": { "text": ["лікарям"], "caseRule": "masc ар" },
+      "instrumental": { "text": ["лікарями"], "caseRule": "masc ар" },
+      "locative": { "text": ["лікарях"], "caseRule": "masc ар" }
+    }
+  },
   "море": {
     "singular": {
       "nominative": { "text": ["море"] },
