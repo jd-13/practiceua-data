@@ -18,6 +18,25 @@
       "locative": { "text": ["мамах"], "caseRule": "fem hard" }
     }
   },
+  "машина": {
+    "singular": {
+      "nominative": { "text": ["машина"] },
+      "genitive": { "text": ["машини"], "caseRule": "fem hard" },
+      "accusative": { "text": ["машину"], "caseRule": "fem hard" },
+      "dative": { "text": ["машині"], "caseRule": "fem hard" },
+      "instrumental": { "text": ["машиною"], "caseRule": "fem hard" },
+      "locative": { "text": ["машині"], "caseRule": "fem hard" },
+      "vocative": { "text": ["машино"], "caseRule": "fem hard" }
+    },
+    "plural": {
+      "nominative": { "text": ["машини"], "caseRule": "fem hard" },
+      "genitive": { "text": ["машин"], "caseRule":"fem hard"},
+     	"accusative":{"text":["машини"],"caseRule":"fem inanimate"},
+     	"dative":{"text":["машинам"],"caseRule":"fem hard"},
+     	"instrumental":{"text":["машинами"],"caseRule":"fem hard"},
+     	"locative":{"text":["машинах"],"caseRule":"fem hard"}
+    }
+  },
   "друг": {
     "singular": {
       "nominative": { "text": ["друг"] },
@@ -56,6 +75,25 @@
       "locative": { "text": ["лікарях"], "caseRule": "masc ар" }
     }
   },
+  "вулиця": {
+    "singular": {
+      "nominative": { "text": ["вулиця"] },
+      "genitive": { "text": ["вулиці"], "caseRule": "fem soft" },
+      "accusative": { "text": ["вулицю"], "caseRule": "fem soft" },
+      "dative": { "text": ["вулиці"], "caseRule": "fem soft" },
+      "instrumental": { "text": ["вулицею"], "caseRule": "fem soft" },
+      "locative": { "text": ["вулиці"], "caseRule": "fem soft" },
+      "vocative": { "text": ["вулице"], "caseRule": "fem soft" }
+    },
+    "plural": {
+      "nominative": { "text": ["вулиці"], "caseRule": "fem soft" },
+      "genitive": { "text": ["вулиць", 	"вулиць"], 	"caseRule":"fem soft"},
+     	"accusative":{"text":["вулиці"],"caseRule":"fem animate"},
+     	"dative":{"text":["вулицям"],"caseRule":"fem soft"},
+     	"instrumental":{"text":["вулицями"],"caseRule":"fem soft"},
+     	"locative":{"text":["вулицях"],"caseRule":"fem soft"}
+    }
+  },
   "море": {
     "singular": {
       "nominative": { "text": ["море"] },
@@ -74,5 +112,23 @@
       "instrumental": { "text": ["морями"], "caseRule": "neu soft" },
       "locative": { "text": ["морях"], "caseRule": "neu soft" }
     }
-  }
+  },
+  "озеро": {
+    "singular": {
+      "nominative": { "text": ["озеро"] },
+      "genitive": { "text": ["озера"], "caseRule": "neu hard" },
+      "accusative": { "text": ["озеро"], "caseRule": "neu" },
+      "dative": { "text": ["озеру"], "caseRule": "neu hard" },
+      "instrumental": { "text": ["озером"], "caseRule": "neu hard" },
+      "locative": { "text": ["озері"], "caseRule": "neu hard" },
+      "vocative": { "text": ["озеро"], "caseRule": "neu hard" }
+    },
+    "plural": {
+      "nominative": { "text": ["озера"], "caseRule": "neu hard" },
+      "genitive": { "text": ["озер"], "caseRule": "neu hard" },
+      "accusative": { "text": ["озера"], "caseRule": "neu" },
+      "dative": { "text": ["озерам"], "caseRule": "neu hard" },
+      "instrumental": { "text": ["озерами"], "caseRule": "neu hard" },
+      "locative": { "text": ["озерах"], "caseRule": "neu hard" }
+    }
 }
