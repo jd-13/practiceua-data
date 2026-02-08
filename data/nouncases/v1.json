@@ -119,9 +119,9 @@
       "genitive": { "text": ["озера"], "caseRule": "neu hard" },
       "accusative": { "text": ["озеро"], "caseRule": "neu" },
       "dative": { "text": ["озеру"], "caseRule": "neu hard" },
-      "instrumental": { "text": ["озером"], "caseRule": "neu hard" },
-      "locative": { "text": ["озері"], "caseRule": "neu hard" },
-      "vocative": { "text": ["озеро"], "caseRule": "neu hard" }
+      "instrumental": { "text": ["озером"], "caseRule": "neu" },
+      "locative": { "text": ["озері"], "caseRule": "neu" },
+      "vocative": { "text": ["озеро"], "caseRule": "neu" }
     },
     "plural": {
       "nominative": { "text": ["озера"], "caseRule": "neu hard" },
