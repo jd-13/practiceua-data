@@ -3,6 +3,14 @@
         "singluar": "яблуко",
         "plural": "яблука"
     },
+    "apricot": {
+        "singluar": "абрикос",
+        "plural": "абрикоси"
+    },
+    "aubergine": {
+        "singluar": "баклажан",
+        "plural": "баклажани"
+    },
     "banana": {
         "singluar": "банан",
         "plural": "банани"
@@ -74,6 +82,10 @@
     "orange": {
         "singluar": "апельсин",
         "plural": "апельсини"
+    },
+    "peach": {
+        "singluar": "персик",
+        "plural": "персики"
     },
     "pear": {
         "singluar": "груша",
