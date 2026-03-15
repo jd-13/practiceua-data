@@ -39,6 +39,10 @@
         "singluar": "цвітна капуста",
         "plural": "цвітна капуста"
     },
+    "cherry": {
+        "singluar": "вишня",
+        "plural": "вишні"
+    },
     "chilli": {
         "singluar": "чилі",
         "plural": "чилі"
@@ -75,6 +79,10 @@
         "singluar": "вапно",
         "plural": "вапно"
     },
+    "melon": {
+        "singluar": "диня",
+        "plural": "дині"
+    },
     "onion": {
         "singluar": "цибуля",
         "plural": "цибулі"
@@ -87,13 +95,33 @@
         "singluar": "персик",
         "plural": "персики"
     },
+    "pea": {
+        "singluar": "горох",
+        "plural": "горох"
+    },
     "pear": {
         "singluar": "груша",
         "plural": "груші"
     },
+    "plum": {
+        "singluar": "слива",
+        "plural": "сливи"
+    },
     "potato": {
         "singluar": "картопля",
         "plural": "картопля"
+    },
+    "pumpkin": {
+        "singluar": "гарбуз",
+        "plural": "гарбузи"
+    },
+    "radish": {
+        "singluar": "редиска",
+        "plural": "редиски"
+    },
+    "raspberry": {
+        "singluar": "малина",
+        "plural": "малина"
     },
     "strawberry": {
         "singluar": "полуниця",
