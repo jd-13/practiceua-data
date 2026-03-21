@@ -1,0 +1,200 @@
+[
+    {
+        "flag": "flags/Flag_of_the_United_States.jpg",
+        "country": "Америка",
+        "genitive": "Америки",
+        "languages": ["английски"],
+        "nationality": {
+            "masculine": "американец",
+            "feminine": "американка",
+            "plural": "американцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_England.jpg",
+        "country": "Англия",
+        "genitive": "Англии",
+        "languages": ["английски"],
+        "nationality": {
+            "masculine": "англичанин",
+            "feminine": "англичанка",
+            "plural": "англичане"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Argentina.jpg",
+        "country": "Аргентина",
+        "genitive": "Аргентины",
+        "languages": ["испански"],
+        "nationality": {
+            "masculine": "аргентинец",
+            "feminine": "аргентинка",
+            "plural": "аргентинцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Belgium.jpg",
+        "country": "Бельгия",
+        "genitive": "Бельгии",
+        "languages": ["нидерландски", "французски"],
+        "nationality": {
+            "masculine": "бельгиец",
+            "feminine": "бельгийка",
+            "plural": "бельгийцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Denmark.jpg",
+        "country": "Дания",
+        "genitive": "Дании",
+        "languages": ["датски"],
+        "nationality": {
+            "masculine": "датчанин",
+            "feminine": "датчанка",
+            "plural": "датчане"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Germany.jpg",
+        "country": "Германия",
+        "genitive": "Германии",
+        "languages": ["немецки"],
+        "nationality": {
+            "masculine": "немец",
+            "feminine": "немка",
+            "plural": "немцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Greece.jpg",
+        "country": "Греция",
+        "genitive": "Греции",
+        "languages": ["гречески"],
+        "nationality": {
+            "masculine": "грек",
+            "feminine": "гречанка",
+            "plural": "греки"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Spain.jpg",
+        "country": "Испания",
+        "genitive": "Испании",
+        "languages": ["испански"],
+        "nationality": {
+            "masculine": "испанец",
+            "feminine": "испанка",
+            "plural": "испанцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Italy.jpg",
+        "country": "Италия",
+        "genitive": "Италии",
+        "languages": ["итальянски"],
+        "nationality": {
+            "masculine": "итальянец",
+            "feminine": "итальянка",
+            "plural": "итальянцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Canada_%28Pantone%29.jpg",
+        "country": "Канада",
+        "genitive": "Канады",
+        "languages": ["английски", "французски"],
+        "nationality": {
+            "masculine": "канадец",
+            "feminine": "канадка",
+            "plural": "канадцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_the_People%27s_Republic_of_China.jpg",
+        "country": "Китай",
+        "genitive": "Китая",
+        "languages": ["китайски"],
+        "nationality": {
+            "masculine": "китаец",
+            "feminine": "китаянка",
+            "plural": "китайцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Mexico.jpg",
+        "country": "Мексика",
+        "genitive": "Мексики",
+        "languages": ["испански"],
+        "nationality": {
+            "masculine": "мексиканец",
+            "feminine": "мексиканка",
+            "plural": "мексиканцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Norway.jpg",
+        "country": "Норвегия",
+        "genitive": "Норвегии",
+        "languages": ["норвежски"],
+        "nationality": {
+            "masculine": "норвежец",
+            "feminine": "норвежка",
+            "plural": "норвежцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Portugal.jpg",
+        "country": "Португалия",
+        "genitive": "Португалии",
+        "languages": ["португальски"],
+        "nationality": {
+            "masculine": "португалец",
+            "feminine": "португалка",
+            "plural": "португальцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Russia.jpg",
+        "country": "Россия",
+        "genitive": "России",
+        "languages": ["русски"],
+        "nationality": {
+            "masculine": "русскии",
+            "feminine": "русская",
+            "plural": "русские"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Ukraine.jpg",
+        "country": "Украина",
+        "genitive": "Украины",
+        "languages": ["украински"],
+        "nationality": {
+            "masculine": "украинец",
+            "feminine": "украинка",
+            "plural": "украинцы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_France.jpg",
+        "country": "Франция",
+        "genitive": "Франции",
+        "languages": ["французски"],
+        "nationality": {
+            "masculine": "француз",
+            "feminine": "француженка",
+            "plural": "французы"
+        }
+    },
+    {
+        "flag": "flags/Flag_of_Switzerland_%28Pantone%29.jpg",
+        "country": "Швейцария",
+        "genitive": "Швейцарии",
+        "languages": ["немецки"],
+        "nationality": {
+            "masculine": "швейцарец",
+            "feminine": "швейцарка",
+            "plural": "швейцарцы"
+        }
+    }
+]
