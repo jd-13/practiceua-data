@@ -3,6 +3,10 @@
         "singluar": "пальто",
         "plural": "пальта"
     },
+    "dress": {
+        "singluar": "сукня",
+        "plural": "сукні"
+    },
     "gloves": {
         "singluar": "рукавичка",
         "plural": "рукавички"
@@ -23,6 +27,10 @@
         "singluar": "шарф",
         "plural": "шарфи"
     },
+    "shirt": {
+        "singluar": "сорочка",
+        "plural": "сорочки"
+    },
     "shorts": {
         "singluar": "шорти",
         "plural": "шорти"
@@ -42,5 +50,17 @@
     "tie": {
         "singluar": "краватка",
         "plural": "краватки"
+    },
+    "trainers": {
+        "singluar": "кросівка",
+        "plural": "кросівки"
+    },
+    "trousers": {
+        "singluar": "штани",
+        "plural": "штани"
+    },
+    "tshirt": {
+        "singluar": "футболка",
+        "plural": "футболки"
     }
 }
