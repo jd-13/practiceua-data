@@ -53,19 +53,15 @@ func TestCountries(t *testing.T) {
 		nationality, ok := country["nationality"].(map[string]interface{})
 		require.True(t, ok)
 
-		assert.Contains(t, nationality, "masculine")
-		masculine, ok := nationality["masculine"].(string)
-		assert.True(t, ok)
-		assert.NotEmpty(t, masculine)
-
-		assert.Contains(t, nationality, "feminine")
-		feminine, ok := nationality["feminine"].(string)
-		assert.True(t, ok)
-		assert.NotEmpty(t, feminine)
-
-		assert.Contains(t, nationality, "plural")
-		plural, ok := nationality["plural"].(string)
-		assert.True(t, ok)
-		assert.NotEmpty(t, plural)
+		for _, key := range []string{"masculine", "feminine", "plural"} {
+			assert.Contains(t, nationality, key)
+			vals, ok := nationality[key].([]interface{})
+			assert.True(t, ok)
+			assert.NotEmpty(t, vals)
+			for _, v := range vals {
+				_, ok = v.(string)
+				assert.True(t, ok)
+			}
+		}
 	}
 }

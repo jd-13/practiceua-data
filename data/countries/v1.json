@@ -5,9 +5,9 @@
         "genitive": "Америки",
         "languages": ["англійська"],
         "nationality": {
-            "masculine": "американець",
-            "feminine": "американка",
-            "plural": "американці"
+            "masculine": ["американець"],
+            "feminine": ["американка"],
+            "plural": ["американці"]
         }
     },
     {
@@ -16,9 +16,9 @@
         "genitive": "Англії",
         "languages": ["англійська"],
         "nationality": {
-            "masculine": "англієць",
-            "feminine": "англійка",
-            "plural": "англійці"
+            "masculine": ["англієць"],
+            "feminine": ["англійка"],
+            "plural": ["англійці"]
         }
     },
     {
@@ -27,9 +27,9 @@
         "genitive": "Аргентини",
         "languages": ["іспанська"],
         "nationality": {
-            "masculine": "аргентинець",
-            "feminine": "аргентинка",
-            "plural": "аргентинці"
+            "masculine": ["аргентинець"],
+            "feminine": ["аргентинка"],
+            "plural": ["аргентинці"]
         }
     },
     {
@@ -38,9 +38,9 @@
         "genitive": "Бельгії",
         "languages": ["нідерландська", "французька"],
         "nationality": {
-            "masculine": "бельгієць",
-            "feminine": "бельгійка",
-            "plural": "бельгійці"
+            "masculine": ["бельгієць"],
+            "feminine": ["бельгійка"],
+            "plural": ["бельгійці"]
         }
     },
     {
@@ -49,9 +49,9 @@
         "genitive": "Данії",
         "languages": ["данська"],
         "nationality": {
-            "masculine": "данець",
-            "feminine": "данка",
-            "plural": "данці"
+            "masculine": ["данець"],
+            "feminine": ["данка"],
+            "plural": ["данці"]
         }
     },
     {
@@ -60,9 +60,9 @@
         "genitive": "Німеччини",
         "languages": ["німецька"],
         "nationality": {
-            "masculine": "німець",
-            "feminine": "німкеня",
-            "plural": "німці"
+            "masculine": ["німець"],
+            "feminine": ["німкеня", "німка"],
+            "plural": ["німці"]
         }
     },
     {
@@ -71,9 +71,9 @@
         "genitive": "Греції",
         "languages": ["грецька"],
         "nationality": {
-            "masculine": "грек",
-            "feminine": "гречанка",
-            "plural": "греки"
+            "masculine": ["грек"],
+            "feminine": ["грекиня", "гречанка"],
+            "plural": ["греки"]
         }
     },
     {
@@ -82,9 +82,9 @@
         "genitive": "Іспанії",
         "languages": ["іспанська"],
         "nationality": {
-            "masculine": "іспанець",
-            "feminine": "іспанка",
-            "plural": "іспанці"
+            "masculine": ["іспанець"],
+            "feminine": ["іспанка"],
+            "plural": ["іспанці"]
         }
     },
     {
@@ -93,9 +93,9 @@
         "genitive": "Італії",
         "languages": ["італійська"],
         "nationality": {
-            "masculine": "італієць",
-            "feminine": "італійка",
-            "plural": "італійці"
+            "masculine": ["італієць"],
+            "feminine": ["італійка"],
+            "plural": ["італійці"]
         }
     },
     {
@@ -104,9 +104,9 @@
         "genitive": "Канади",
         "languages": ["англійська", "французька"],
         "nationality": {
-            "masculine": "канадець",
-            "feminine": "канадка",
-            "plural": "канадці"
+            "masculine": ["канадець"],
+            "feminine": ["канадка"],
+            "plural": ["канадці"]
         }
     },
     {
@@ -115,9 +115,9 @@
         "genitive": "Китаю",
         "languages": ["китайська"],
         "nationality": {
-            "masculine": "китаєць",
-            "feminine": "китаянка",
-            "plural": "китайці"
+            "masculine": ["китаєць"],
+            "feminine": ["китаянка"],
+            "plural": ["китайці"]
         }
     },
     {
@@ -126,9 +126,9 @@
         "genitive": "Мексики",
         "languages": ["іспанська"],
         "nationality": {
-            "masculine": "мексиканець",
-            "feminine": "мексиканка",
-            "plural": "мексиканці"
+            "masculine": ["мексиканець"],
+            "feminine": ["мексиканка"],
+            "plural": ["мексиканці"]
         }
     },
     {
@@ -137,9 +137,9 @@
         "genitive": "Норвегії",
         "languages": ["норвезька"],
         "nationality": {
-            "masculine": "норвежець",
-            "feminine": "норвежка",
-            "plural": "норвежці"
+            "masculine": ["норвежець"],
+            "feminine": ["норвежка"],
+            "plural": ["норвежці"]
         }
     },
     {
@@ -148,9 +148,9 @@
         "genitive": "Португалії",
         "languages": ["португальська"],
         "nationality": {
-            "masculine": "португалець",
-            "feminine": "португалка",
-            "plural": "португальці"
+            "masculine": ["португалець"],
+            "feminine": ["португалка"],
+            "plural": ["португальці"]
         }
     },
     {
@@ -159,9 +159,9 @@
         "genitive": "України",
         "languages": ["українська"],
         "nationality": {
-            "masculine": "українець",
-            "feminine": "українка",
-            "plural": "українці"
+            "masculine": ["українець"],
+            "feminine": ["українка"],
+            "plural": ["українці"]
         }
     },
     {
@@ -170,9 +170,9 @@
         "genitive": "Франції",
         "languages": ["французька"],
         "nationality": {
-            "masculine": "француз",
-            "feminine": "француженка",
-            "plural": "французи"
+            "masculine": ["француз"],
+            "feminine": ["француженка"],
+            "plural": ["французи"]
         }
     },
     {
@@ -181,9 +181,9 @@
         "genitive": "Швейцарії",
         "languages": ["німецька"],
         "nationality": {
-            "masculine": "швейцарець",
-            "feminine": "швейцарка",
-            "plural": "швейцарці"
+            "masculine": ["швейцарець"],
+            "feminine": ["швейцарка"],
+            "plural": ["швейцарці"]
         }
     }
 ]
