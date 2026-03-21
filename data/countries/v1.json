@@ -3,73 +3,73 @@
         "flag": "flags/Flag_of_the_United_States.jpg",
         "country": "Америка",
         "genitive": "Америки",
-        "languages": ["английски"],
+        "languages": ["англійська"],
         "nationality": {
-            "masculine": "американец",
+            "masculine": "американець",
             "feminine": "американка",
-            "plural": "американцы"
+            "plural": "американці"
         }
     },
     {
         "flag": "flags/Flag_of_England.jpg",
-        "country": "Англия",
-        "genitive": "Англии",
-        "languages": ["английски"],
+        "country": "Англія",
+        "genitive": "Англії",
+        "languages": ["англійська"],
         "nationality": {
-            "masculine": "англичанин",
-            "feminine": "англичанка",
-            "plural": "англичане"
+            "masculine": "англієць",
+            "feminine": "англійка",
+            "plural": "англійці"
         }
     },
     {
         "flag": "flags/Flag_of_Argentina.jpg",
         "country": "Аргентина",
-        "genitive": "Аргентины",
-        "languages": ["испански"],
+        "genitive": "Аргентини",
+        "languages": ["іспанська"],
         "nationality": {
-            "masculine": "аргентинец",
+            "masculine": "аргентинець",
             "feminine": "аргентинка",
-            "plural": "аргентинцы"
+            "plural": "аргентинці"
         }
     },
     {
         "flag": "flags/Flag_of_Belgium.jpg",
-        "country": "Бельгия",
-        "genitive": "Бельгии",
-        "languages": ["нидерландски", "французски"],
+        "country": "Бельгія",
+        "genitive": "Бельгії",
+        "languages": ["нідерландська", "французька"],
         "nationality": {
-            "masculine": "бельгиец",
-            "feminine": "бельгийка",
-            "plural": "бельгийцы"
+            "masculine": "бельгієць",
+            "feminine": "бельгійка",
+            "plural": "бельгійці"
         }
     },
     {
         "flag": "flags/Flag_of_Denmark.jpg",
-        "country": "Дания",
-        "genitive": "Дании",
-        "languages": ["датски"],
+        "country": "Данія",
+        "genitive": "Данії",
+        "languages": ["данська"],
         "nationality": {
-            "masculine": "датчанин",
-            "feminine": "датчанка",
-            "plural": "датчане"
+            "masculine": "данець",
+            "feminine": "данка",
+            "plural": "данці"
         }
     },
     {
         "flag": "flags/Flag_of_Germany.jpg",
-        "country": "Германия",
-        "genitive": "Германии",
-        "languages": ["немецки"],
+        "country": "Німеччина",
+        "genitive": "Німеччини",
+        "languages": ["німецька"],
         "nationality": {
-            "masculine": "немец",
-            "feminine": "немка",
-            "plural": "немцы"
+            "masculine": "німець",
+            "feminine": "німкеня",
+            "plural": "німці"
         }
     },
     {
         "flag": "flags/Flag_of_Greece.jpg",
-        "country": "Греция",
-        "genitive": "Греции",
-        "languages": ["гречески"],
+        "country": "Греція",
+        "genitive": "Греції",
+        "languages": ["грецька"],
         "nationality": {
             "masculine": "грек",
             "feminine": "гречанка",
@@ -78,123 +78,112 @@
     },
     {
         "flag": "flags/Flag_of_Spain.jpg",
-        "country": "Испания",
-        "genitive": "Испании",
-        "languages": ["испански"],
+        "country": "Іспанія",
+        "genitive": "Іспанії",
+        "languages": ["іспанська"],
         "nationality": {
-            "masculine": "испанец",
-            "feminine": "испанка",
-            "plural": "испанцы"
+            "masculine": "іспанець",
+            "feminine": "іспанка",
+            "plural": "іспанці"
         }
     },
     {
         "flag": "flags/Flag_of_Italy.jpg",
-        "country": "Италия",
-        "genitive": "Италии",
-        "languages": ["итальянски"],
+        "country": "Італія",
+        "genitive": "Італії",
+        "languages": ["італійська"],
         "nationality": {
-            "masculine": "итальянец",
-            "feminine": "итальянка",
-            "plural": "итальянцы"
+            "masculine": "італієць",
+            "feminine": "італійка",
+            "plural": "італійці"
         }
     },
     {
         "flag": "flags/Flag_of_Canada_%28Pantone%29.jpg",
         "country": "Канада",
-        "genitive": "Канады",
-        "languages": ["английски", "французски"],
+        "genitive": "Канади",
+        "languages": ["англійська", "французька"],
         "nationality": {
-            "masculine": "канадец",
+            "masculine": "канадець",
             "feminine": "канадка",
-            "plural": "канадцы"
+            "plural": "канадці"
         }
     },
     {
         "flag": "flags/Flag_of_the_People%27s_Republic_of_China.jpg",
         "country": "Китай",
-        "genitive": "Китая",
-        "languages": ["китайски"],
+        "genitive": "Китаю",
+        "languages": ["китайська"],
         "nationality": {
-            "masculine": "китаец",
+            "masculine": "китаєць",
             "feminine": "китаянка",
-            "plural": "китайцы"
+            "plural": "китайці"
         }
     },
     {
         "flag": "flags/Flag_of_Mexico.jpg",
         "country": "Мексика",
         "genitive": "Мексики",
-        "languages": ["испански"],
+        "languages": ["іспанська"],
         "nationality": {
-            "masculine": "мексиканец",
+            "masculine": "мексиканець",
             "feminine": "мексиканка",
-            "plural": "мексиканцы"
+            "plural": "мексиканці"
         }
     },
     {
         "flag": "flags/Flag_of_Norway.jpg",
-        "country": "Норвегия",
-        "genitive": "Норвегии",
-        "languages": ["норвежски"],
+        "country": "Норвегія",
+        "genitive": "Норвегії",
+        "languages": ["норвезька"],
         "nationality": {
-            "masculine": "норвежец",
+            "masculine": "норвежець",
             "feminine": "норвежка",
-            "plural": "норвежцы"
+            "plural": "норвежці"
         }
     },
     {
         "flag": "flags/Flag_of_Portugal.jpg",
-        "country": "Португалия",
-        "genitive": "Португалии",
-        "languages": ["португальски"],
+        "country": "Португалія",
+        "genitive": "Португалії",
+        "languages": ["португальська"],
         "nationality": {
-            "masculine": "португалец",
+            "masculine": "португалець",
             "feminine": "португалка",
-            "plural": "португальцы"
-        }
-    },
-    {
-        "flag": "flags/Flag_of_Russia.jpg",
-        "country": "Россия",
-        "genitive": "России",
-        "languages": ["русски"],
-        "nationality": {
-            "masculine": "русскии",
-            "feminine": "русская",
-            "plural": "русские"
+            "plural": "португальці"
         }
     },
     {
         "flag": "flags/Flag_of_Ukraine.jpg",
-        "country": "Украина",
-        "genitive": "Украины",
-        "languages": ["украински"],
+        "country": "Україна",
+        "genitive": "України",
+        "languages": ["українська"],
         "nationality": {
-            "masculine": "украинец",
-            "feminine": "украинка",
-            "plural": "украинцы"
+            "masculine": "українець",
+            "feminine": "українка",
+            "plural": "українці"
         }
     },
     {
         "flag": "flags/Flag_of_France.jpg",
-        "country": "Франция",
-        "genitive": "Франции",
-        "languages": ["французски"],
+        "country": "Франція",
+        "genitive": "Франції",
+        "languages": ["французька"],
         "nationality": {
             "masculine": "француз",
             "feminine": "француженка",
-            "plural": "французы"
+            "plural": "французи"
         }
     },
     {
         "flag": "flags/Flag_of_Switzerland_%28Pantone%29.jpg",
-        "country": "Швейцария",
-        "genitive": "Швейцарии",
-        "languages": ["немецки"],
+        "country": "Швейцарія",
+        "genitive": "Швейцарії",
+        "languages": ["німецька"],
         "nationality": {
-            "masculine": "швейцарец",
+            "masculine": "швейцарець",
             "feminine": "швейцарка",
-            "plural": "швейцарцы"
+            "plural": "швейцарці"
         }
     }
 ]
