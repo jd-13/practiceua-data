@@ -1,7 +1,19 @@
 {
+    "coat": {
+        "singluar": "пальто",
+        "plural": "пальта"
+    },
+    "gloves": {
+        "singluar": "рукавичка",
+        "plural": "рукавички"
+    },
     "hoodie": {
         "singluar": "худі",
         "plural": "худі"
+    },
+    "jacket": {
+        "singluar": "куртка",
+        "plural": "куртки"
     },
     "jeans": {
         "singluar": "джинси",
@@ -10,5 +22,25 @@
     "scarf": {
         "singluar": "шарф",
         "plural": "шарфи"
+    },
+    "shorts": {
+        "singluar": "шорти",
+        "plural": "шорти"
+    },
+    "skirt": {
+        "singluar": "спідниця",
+        "plural": "спідниці"
+    },
+    "socks": {
+        "singluar": "шкарпетка",
+        "plural": "шкарпетки"
+    },
+    "suit": {
+        "singluar": "костюм",
+        "plural": "костюми"
+    },
+    "tie": {
+        "singluar": "краватка",
+        "plural": "краватки"
     }
 }
