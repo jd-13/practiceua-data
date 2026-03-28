@@ -3,6 +3,7 @@
         "flag": "flags/Flag_of_the_United_States.jpg",
         "country": "Америка",
         "genitive": "Америки",
+        "preposition": "з",
         "languages": ["англійська"],
         "nationality": {
             "masculine": ["американець"],
@@ -14,6 +15,7 @@
         "flag": "flags/Flag_of_England.jpg",
         "country": "Англія",
         "genitive": "Англії",
+        "preposition": "з",
         "languages": ["англійська"],
         "nationality": {
             "masculine": ["англієць"],
@@ -25,6 +27,7 @@
         "flag": "flags/Flag_of_Argentina.jpg",
         "country": "Аргентина",
         "genitive": "Аргентини",
+        "preposition": "з",
         "languages": ["іспанська"],
         "nationality": {
             "masculine": ["аргентинець"],
@@ -36,6 +39,7 @@
         "flag": "flags/Flag_of_Belgium.jpg",
         "country": "Бельгія",
         "genitive": "Бельгії",
+        "preposition": "з",
         "languages": ["нідерландська", "французька"],
         "nationality": {
             "masculine": ["бельгієць"],
@@ -47,6 +51,7 @@
         "flag": "flags/Flag_of_Denmark.jpg",
         "country": "Данія",
         "genitive": "Данії",
+        "preposition": "з",
         "languages": ["данська"],
         "nationality": {
             "masculine": ["данець"],
@@ -58,6 +63,7 @@
         "flag": "flags/Flag_of_Germany.jpg",
         "country": "Німеччина",
         "genitive": "Німеччини",
+        "preposition": "з",
         "languages": ["німецька"],
         "nationality": {
             "masculine": ["німець"],
@@ -69,6 +75,7 @@
         "flag": "flags/Flag_of_Greece.jpg",
         "country": "Греція",
         "genitive": "Греції",
+        "preposition": "з",
         "languages": ["грецька"],
         "nationality": {
             "masculine": ["грек"],
@@ -80,6 +87,7 @@
         "flag": "flags/Flag_of_Spain.jpg",
         "country": "Іспанія",
         "genitive": "Іспанії",
+        "preposition": "з",
         "languages": ["іспанська"],
         "nationality": {
             "masculine": ["іспанець"],
@@ -91,6 +99,7 @@
         "flag": "flags/Flag_of_Italy.jpg",
         "country": "Італія",
         "genitive": "Італії",
+        "preposition": "з",
         "languages": ["італійська"],
         "nationality": {
             "masculine": ["італієць"],
@@ -102,6 +111,7 @@
         "flag": "flags/Flag_of_Canada_%28Pantone%29.jpg",
         "country": "Канада",
         "genitive": "Канади",
+        "preposition": "з",
         "languages": ["англійська", "французька"],
         "nationality": {
             "masculine": ["канадець"],
@@ -113,6 +123,7 @@
         "flag": "flags/Flag_of_the_People%27s_Republic_of_China.jpg",
         "country": "Китай",
         "genitive": "Китаю",
+        "preposition": "з",
         "languages": ["китайська"],
         "nationality": {
             "masculine": ["китаєць"],
@@ -124,6 +135,7 @@
         "flag": "flags/Flag_of_Mexico.jpg",
         "country": "Мексика",
         "genitive": "Мексики",
+        "preposition": "з",
         "languages": ["іспанська"],
         "nationality": {
             "masculine": ["мексиканець"],
@@ -135,6 +147,7 @@
         "flag": "flags/Flag_of_Norway.jpg",
         "country": "Норвегія",
         "genitive": "Норвегії",
+        "preposition": "з",
         "languages": ["норвезька"],
         "nationality": {
             "masculine": ["норвежець"],
@@ -146,6 +159,7 @@
         "flag": "flags/Flag_of_Portugal.jpg",
         "country": "Португалія",
         "genitive": "Португалії",
+        "preposition": "з",
         "languages": ["португальська"],
         "nationality": {
             "masculine": ["португалець"],
@@ -157,6 +171,7 @@
         "flag": "flags/Flag_of_Ukraine.jpg",
         "country": "Україна",
         "genitive": "України",
+        "preposition": "з",
         "languages": ["українська"],
         "nationality": {
             "masculine": ["українець"],
@@ -168,6 +183,7 @@
         "flag": "flags/Flag_of_France.jpg",
         "country": "Франція",
         "genitive": "Франції",
+        "preposition": "з",
         "languages": ["французька"],
         "nationality": {
             "masculine": ["француз"],
@@ -179,6 +195,7 @@
         "flag": "flags/Flag_of_Switzerland_%28Pantone%29.jpg",
         "country": "Швейцарія",
         "genitive": "Швейцарії",
+        "preposition": "із",
         "languages": ["німецька"],
         "nationality": {
             "masculine": ["швейцарець"],

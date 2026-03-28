@@ -40,6 +40,11 @@ func TestCountries(t *testing.T) {
 		assert.True(t, ok)
 		assert.NotEmpty(t, genitive)
 
+		assert.Contains(t, country, "preposition")
+		preposition, ok := country["preposition"].(string)
+		assert.True(t, ok)
+		assert.Contains(t, []string{"з", "із"}, preposition)
+
 		assert.Contains(t, country, "languages")
 		languages, ok := country["languages"].([]interface{})
 		assert.True(t, ok)
